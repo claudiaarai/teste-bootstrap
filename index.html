@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Teste de Aula Bootstrap</title>
+    </head>
+    <body>
+        <div class="cointainer">
+            <div class="text-center">
+                <h4>Conheça nosso time!</h4>
+                <p>Conheça nosso time e fique por dentro de quem faz o NOME da EMPRESA!</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card pt-3 text-center" style="width: 18rem;">
+                        <img src="photo1.jpg" class="card-img-top rounded-circle w-75 mx-auto" alt="foto de mulher negra sorrindo com a mão na cabeça">
+                        <div class="card-body">
+                          <h5 class="card-title">Nome & Sobrenome</h5>
+                          <h6 class="card-text">Web Designer</h6>
+                          <p>Insira sua descrição aqui.</p>
+                          <a href="#" class="btn btn-primary">Entre em contato</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card pt-3 text-center" style="width: 18rem;">
+                        <img src="photo2.jpg" class="card-img-top rounded-circle w-75 mx-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nome & Sobrenome</h5>
+                          <h6 class="card-text">Front-End Developer</h6>
+                          <p>Insira sua descrição aqui.</p>
+                          <a href="#" class="btn btn-primary">Entre em contato</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card pt-3 text-center" style="width: 18rem;">
+                        <img src="photo3.jpg" class="card-img-top rounded-circle w-75 mx-auto" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nome & Sobrenome</h5>
+                          <h6 class="card-text">Marketing</h6>
+                          <p>Insira sua descrição aqui.</p>
+                          <a href="#" class="btn btn-primary">Entre em contato</a>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="cointainer">
+            <form>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="mb-3">
+                            <input placeholder="seu nome" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="mb-3">
+                            <input placeholder="seu sobrenome" type="text" class="form-control" id="exampleInputPassword1">
+                          </div>
+                    </div>
+
+                    <div class="col-4">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Melhor horário para contato</option>
+                            <option value="1">Manhã</option>
+                            <option value="2">Tarde</option>
+                            <option value="3">Noite</option>
+                          </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-addon1">@</span>
+                            <input type="text" class="form-control" placeholder="Sua rede social favorita" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                    </div>
+                    
+                    <div class="col-6">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Seu e-mail" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex justify-content-evenly">
+                    <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+        </div>
+        
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</html>

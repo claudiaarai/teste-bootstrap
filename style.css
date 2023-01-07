@@ -1,0 +1,17 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+.card:hover {
+    border-right: 2px solid #F26419;
+    border-left: 2px solid #F26419;
+}
+
+.btn {
+    background-color: #F6AE2D;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #F26419;
+}
